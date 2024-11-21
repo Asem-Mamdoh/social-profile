@@ -11,6 +11,7 @@
 body {
   background-color: #141414;
   font-family: "Inter", sans-serif;
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -63,7 +64,7 @@ a {
   color: var(--socand-color);
 }
 
-p {
+.pra p {
   color: var(--primary-color);
 }
 
@@ -83,4 +84,10 @@ p {
 .btn-all:hover {
   background-color: var(--socand-color);
   color: inherit;
+}
+
+@media (max-width: 413px) {
+  .container {
+    margin: 20px;
+  }
 }
